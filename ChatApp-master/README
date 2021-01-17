@@ -1,0 +1,8 @@
+A Project By Very Beginners
+
+Still under very basic development and more of a test project rather than a professional one in order to learn the real thing.
+
+(Achieved) Target 1 : Build a console app for chatting between two clients connected to a same server.
+(Achieved) Target 2 : Build a file sharing utility.
+(In Progress) Target 3 : Add support for the multiple users with multi-threading.
+Target 4 : Add GUI components using swing.

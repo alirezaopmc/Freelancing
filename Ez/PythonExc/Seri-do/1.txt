@@ -1,0 +1,5 @@
+left => right
+
+Error " missing || Error " missing || Error " missing
+      20        ||       40        ||       15
+      22        ||       10        ||       13

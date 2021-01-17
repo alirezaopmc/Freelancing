@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "stack": "cpp",
+        "xiosbase": "cpp",
+        "cstring": "c",
+        "iosfwd": "c",
+        "xlocale": "c"
+    },
+    "cSpell.words": [
+        "BLINKYEMPTY"
+    ]
+}
