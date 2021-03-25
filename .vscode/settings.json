@@ -47,7 +47,10 @@
         "ctime": "cpp",
         "map": "cpp",
         "atomic": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "sstream": "cpp",
+        "deque": "cpp",
+        "iterator": "cpp"
     },
     "cSpell.words": [
         "BLINKYEMPTY"
