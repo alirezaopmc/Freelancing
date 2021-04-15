@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex-container center">
+        <div id="user-input" class="form normal-box">
+            <h3>Mr. or Mrs.?</h3>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="person-name">
+
+            <div id="gender">
+                <label class="container">
+                    Male
+                    <input type="radio" name="radio" value="male" id="male-input">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">
+                    Female
+                    <input type="radio" name="radio" value="female" id="female-input">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <nav>
+                <ul>
+                  <li onclick="submit()">
+                    Submit
+                    <span></span><span></span><span></span><span></span>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="right-boxes" class="right-boxes normal-box">
+            <div id="prediction">
+                <h3>Prediction</h3>
+                <label id="gender-label">Gender: Waiting...</label>
+                <br>
+                <label id="trueness-label">Trueness: Waiting...</label>
+                <hr>
+            </div>
+            <div class="dotted-border" id="saved-answer">
+                <h3>Saved Answer</h3>
+                <label id="saved-gender">No saved gender</label>
+                <br>
+                <nav>
+                    <ul>
+                      <li onclick="clear_all()">
+                        Clear
+                        <span></span><span></span><span></span><span></span>
+                      </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="script.js"></script>
+
+
+</html>
