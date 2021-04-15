@@ -6,7 +6,8 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: white;
-    background: url("sit.jpg");
+    background: url("uni.jpg");
+    background-size: cover;
 }
 
 
