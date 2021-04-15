@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Chest {
+public class Chest {
+    public int capacity;
+
+    public Chest(int capacity) {
+        this.capacity = capacity;
+    }
 }
