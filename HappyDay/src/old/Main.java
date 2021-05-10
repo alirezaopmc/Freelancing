@@ -1,25 +1,15 @@
-import com.sun.corba.se.impl.resolver.SplitLocalResolverImpl;
+package old;
 
 public class Main {
 
-    public static void hello() {
-        System.out.println("Hello");
-    }
-
-    public static int linear_prg(int n, int a, int b) {
+    public static int line_progression(int n, int a, int b) {
         return a * n + b;
-    }
-
-    public static void show_n_linear_prg(int n, int a, int b) {
-        for(int i = 1; i <= n; i++) {
-            System.out.println(linear_prg(i, a, b));
-        }
     }
 
     public static int sum_with_iter(int n, int a, int b) {
         int sum = 0;
         for(int i = 1; i <= n; i++) {
-            sum += linear_prg(i, a, b);
+            sum += line_progression(i, a, b);
         }
         return sum;
     }
@@ -64,7 +54,7 @@ public class Main {
 
         // Advanced
         String str = "My name is alireza";
-        // Own CLass (e.g. Chest)
+        // Own CLass (e.g. old.Chest)
         // StringBuilder
 
         // Assignment
@@ -87,7 +77,7 @@ public class Main {
         System.out.println(age + " " + another_int);
 
 
-        // Main Structures
+        // old.Main Structures
         // 0. Scopes
         // [Manager] { Scope Body }
         // public static void main(String args[]) {
@@ -131,7 +121,6 @@ public class Main {
         } while (true);
 
         // 3. Structures (Functions and Classes)
-        hello();
         System.out.println(isPrime(13));
 //        show_n_linear_prg(5, 2, 3);
         System.out.println(sum_with_iter(2, 2, 3) == sum_with_formula(2, 2, 3));

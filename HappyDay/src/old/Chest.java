@@ -1,3 +1,5 @@
+package old;
+
 public class Chest {
     public int capacity;
 
